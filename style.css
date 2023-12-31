@@ -1,7 +1,13 @@
+@font-face {
+    font-family: neue;
+    src: url(./NeueHaasDisplayMediu.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: neue;
 }
 
 html,
@@ -15,10 +21,11 @@ body {
     width: 100%;
     background-color: #EFEAE3;
     position: relative;
+    padding: 0 2vw;
 }
 
 nav {
-    padding: 2vw 2vw;
+    padding: 2vw 0vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -33,7 +40,7 @@ nav {
 
 #nav-part2 h4 {
     padding: 10px 20px;
-    border: 1px solid #8a8a8a89;
+    border: 1px solid #0000003c;
     border-radius: 50px;
     font-weight: 500;
     color: #000000bb;
@@ -69,4 +76,26 @@ nav {
 
 #nav-part2 h4:hover a {
     color: #fff;
+}
+
+#center {
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    border-bottom: 1px solid #0000003c;
+    padding-bottom: 2.5vw;
+}
+
+#left h3 {
+    width: 25vw;
+    font-size: 1.8vw;
+    line-height: 2vw;
+}
+
+#center h1 {
+    font-size: 10vw;
+    text-align: right;
+    line-height: 9vw;
 }
